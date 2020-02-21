@@ -1,0 +1,25 @@
+double click = C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe
+
+double click = C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe
+
+cmd D:\StudentPortal\npm run dev
+
+//if not running npm then set path C:\Program Files\nodejs\;
+
+http://localhost:88/administrator/setDatabase == only once 6 month
+
+http://localhost:88/administrator/
+
+username = superuser
+password = admin
+
+http://localhost:88/admin
+
+http://localhost:88/student
+
+http://localhost:88/faculty
+
+http://localhost:88/company
+
+8858446137
+8191965106
