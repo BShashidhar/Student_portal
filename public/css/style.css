@@ -1,0 +1,267 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+.page-content{
+    min-height: 100%;
+    margin: 0 auto -40px;
+}
+.footer,.push {
+    padding-top: 16px;
+    height: 40px;
+}
+
+.box {
+    color: black;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    border:1px solid rgb(87, 86, 86);
+  }
+
+.error-page{
+    content: url('../images/404-Page.png');
+    padding: 5%;
+    height: 100%;
+}
+
+.logo-img{
+    content: url('../images/cdaclogo.jpg');
+    width: 70px;
+    float: left;
+    margin: 1px 10px;
+}
+
+.logo-title{
+    margin:  0px;
+    padding: 3px;
+    color: rgb(3, 127, 149);
+    background-color: #c7ecf5;
+}
+
+.element-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-font{
+    font-size: 3.3vw;
+}
+
+
+.font-40 {
+    font-size: 40px !important;
+}
+
+.profile-default-img{
+    content: url('../images/avatar_2x.png');
+    width: 170px;
+}
+.sameline{
+    width: 47%;
+    display: inline;
+}
+
+.form-area {
+    background-color: white;
+    padding: 10px;
+    margin: 12px -5px 70px;
+    border: 1px solid #009480b2 !important;
+}
+
+.height-500{
+    width:100%;
+    overflow:auto; 
+    max-height:500px;
+}
+
+.error, #error{
+    color: red;
+    font-size: 18px;
+    font-family: cursive;
+    text-shadow: 1px 1px 3px #ffffff;
+}
+
+.success{
+    color: #04661d;
+    font-size: 18px;
+    font-family: cursive;
+    text-shadow: 1px 1px 3px #ffffff;
+}
+
+.food-coupon {
+    background-image: url('../images/food-coupon.png');
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+    color: #ffffff;
+    
+}
+
+
+.pass_show{position: relative} 
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 10px; 
+
+z-index: 1; 
+
+color: #000000; 
+
+margin-top: -10px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+.pass_show .ptxt:hover{color: #333333;} 
+
+th,td {
+    padding: 10px !important;
+}
+
+.tableinput>td>input{
+    max-width: 120px;
+}
+
+.table {
+	table-layout:fixed;
+}
+
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.msg {
+    background: #fefefe;
+    color: #666666;
+    font-weight: bold;
+    font-size: small;
+    padding: 12px;
+    padding-left: 16px;
+    border-top: solid 3px #CCCCCC;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+       -moz-box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+            box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+}
+.msg-clear {
+    border-color: #fefefe;
+    -webkit-box-shadow: 0 7px 10px -5px rgba(0,0,0,.15);
+       -moz-box-shadow: 0 7px 10px -5px rgba(0,0,0,.15);
+            box-shadow: 0 7px 10px -5px rgba(0,0,0,.15);
+}
+.msg-info {
+    border-color: #b8dbf2;
+}
+.msg-success {
+    border-color: #cef2b8;
+}
+.msg-warning {
+    border-color: rgba(255,165,0,.5);
+}
+.msg-danger {
+    border-color: #ec8282;
+}
+.msg-primary {
+    border-color: #9ca6f1;
+}
+.msg-magick {
+    border-color: #e0b8f2;
+}
+.msg-info-text {
+    color: #39b3d7;
+}
+.msg-success-text {
+    color: #80d651;
+}
+.msg-warning-text {
+    color: #db9e34;
+}
+.msg-danger-text {
+    color: #c9302c;
+}
+.msg-primary-text {
+    color: rgba(47,106,215,.9);
+}
+.msg-magick-text {
+    color: #bb39d7;
+}
+
+
+/* Bootstrap changes */
+
+.navbar-default{
+    color: white !important;
+    background-color: #009480b2 !important;
+    margin-bottom: 25px;
+}
+ul.navbar-nav>li>a{
+    color: #ffffff !important;
+}
+ul > li> a{
+    font-size: 20px;
+}
+ul>li>a:hover , li>a.active{
+    color: #000000 !important;
+    background-color: #049470be !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+ }
+ 
+ .dropdown-menu{
+    color: #000000 !important;
+    background-color: rgb(255, 255, 255) !important;
+ }
+
+.dropdown> a:focus {
+    background-color: #35f5c5be !important;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top:0;left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+}
+
+@media (max-width: 767px) {
+    .logo-font{
+        font-size: 6.3vw;
+    }
+}
+@media (max-width: 767px) {
+
+    .profile-default-img{
+        width: 100px;
+    }
+    .font-40{
+        font-size: 30px !important;
+    }
+}
+
+      
